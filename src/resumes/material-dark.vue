@@ -2,8 +2,6 @@
 <div class="resume">
   <div class="leftCol m_box">
     <div class="shadow"></div>
-    <div class="heading" id="myselfpic">
-    </div>
     <div class="section-headline">
       {{ lang.contact }}
     </div>
@@ -74,7 +72,17 @@
         </div>
       </div>
     </a>
-
+    <div class="item">
+      <div class="section-headline">
+        {{ lang.about }}
+      </div>
+      <p style="width: 93%;float: right;">1.有较强的自学能力，对工作有上进心，认真负责。<br>
+        2.有良好的代码习惯。<br>
+        3.数学运算能力较好，思考、逻辑能力较强。<br>
+        4.兴趣广泛，性格开朗、积极乐观，善于交朋友。<br>
+        5.励志成为前端技术大牛
+      </p>
+    </div>
     <div class="item last">
       <div class="section-headline">
         {{ lang.skills }}
@@ -113,6 +121,20 @@
       <div class="headline">{{education.degree}}</div>
       <p class="info">
         {{education.timeperiod}}, {{education.description}}
+      </p>
+    </div>
+    <div class="section-headline">{{ lang.project }}</div>
+    <div class="block" v-for="project in person.project">
+      <div class="block-helper"></div>
+      <div class="headline">{{project.name}}</div>
+      <p class="info">
+        {{project.address}}
+      </p>
+      <p class="info">
+        {{project.description}}
+      </p>
+      <p class="info">
+        {{project.job}}
       </p>
     </div>
   </div>
@@ -196,7 +218,7 @@ a {
   font-size:10pt;
   opacity:0.8;
   margin-left:20px;
-  margin-top:40px;
+  margin-top:20px;
   margin-bottom:20px;
   color:#3f3d3c;
 }
