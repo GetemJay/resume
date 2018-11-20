@@ -13,12 +13,12 @@ birth:
 experience:
 - company: 北京讯飞乐知行软件有限公司
   position: 前端工程师
-  timeperiod: 2017.03至今
+  timeperiod: 2016.10至今
   description: 负责研发一部学生线前端的全部工作
 
 - company: 艾尼克斯电子（北京）有限公司
   position: 产品数据管理PDM
-  timeperiod: 2015.07-2017.03
+  timeperiod: 2015.07-2016.10
   description: 主要负责维护公司的ERP系统
 
 education:
@@ -38,24 +38,24 @@ skills:
   level: 60
 - name: Node.js
   level: 30
-- name: Angular 1.0
-  level: 30
-- name: Sass
-  level: 80
 - name: H5&Css3
   level: 60
+- name: Sass
+  level: 80
+- name: Python
+  level: 30
 knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
   (English and Klingon).
 
 project:
-- name: 学生档案袋
-  address: http://iflytek.lezhiyun.cn 账号：1122112@ljtcszx 密码：000000
-  description: 是一个包含了学生的日常表现，学业水平，个人规划等信息的应用
-  job: 负责项目从头到尾的全部工作
-- name: 童心五者评价（手端）
-  address: 关注公众微信号：童心教育之窗，在童心校园-综合评价中进入 账号admin 密码000000
-  description: 学生之间可以互相评价，并可以在五个不同的维度下上传资料等。老师管理员可以查看互评 ，查看学生上传的成果。
-  job: 负责项目的整个工作。
+- name: 智能考勤
+  address: 由于项目都是提供给学校使用，只能提供测试环境的地址和账号http://www.4yec.com 账号：admin@yunxx1 密码：lzx2018 登陆之后用这个链接：http://www.4yec.com/school/app.do?id=3d159aad9ffb49bd84ba0391238b8782&topNavbarTheme=black
+  description: 使用elementui开发的一款考勤用的软件，主要功能为设置考勤组、设置打卡地点、查看考勤统计等功能，类似于钉钉的考勤模块
+  job: 负责整个项目的前端工作
+- name: 日程协同H5
+  address: 内嵌在公司原生app中，提供一些app截图
+  description: 使用vux开发，用来记录个人和小组日程的应用
+  job: 负责整个项目的前端工作
 
 contact:
   email: 18612937875@163.com
