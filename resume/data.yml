@@ -53,7 +53,7 @@ project:
   description: 使用elementui开发的一款考勤用的软件，主要功能为设置考勤组、设置打卡地点、查看考勤统计等功能，类似于钉钉的考勤模块
   job: 负责整个项目的前端工作
 - name: 日程协同H5
-  address: 内嵌在公司原生app中，提供一些app截图
+  address: 内嵌在公司原生app中，提供一些项目截图：https://github.com/GetemJay/images
   description: 使用vux开发，用来记录个人和小组日程的应用
   job: 负责整个项目的前端工作
 
