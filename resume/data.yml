@@ -35,7 +35,7 @@ skills:
 - name: Jquery
   level: 80
 - name: webpack
-  level: 60
+  level: 70
 - name: Node.js
   level: 30
 - name: H5&Css3
@@ -49,12 +49,10 @@ knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
 
 project:
 - name: 智能考勤
-  address: 由于项目都是提供给学校使用，只能提供测试环境的地址和账号http://www.4yec.com 账号：admin@yunxx1 密码：lzx2018 登陆之后用这个链接：http://www.4yec.com/school/app.do?id=3d159aad9ffb49bd84ba0391238b8782&topNavbarTheme=black
   description: 使用elementui开发的一款考勤用的软件，主要功能为设置考勤组、设置打卡地点、查看考勤统计等功能，类似于钉钉的考勤模块
   job: 负责整个项目的前端工作
-- name: 日程协同H5
-  address: 内嵌在公司原生app中，提供一些项目截图：https://github.com/GetemJay/images
-  description: 使用vux开发，用来记录个人和小组日程的应用
+- name: 招生报名
+  description: 使用elementui开发的一款用来招生的软件，主要功能为老师设计报名表单，学生注册并填写报名信息等。项目亮点：老师可以自定义设计form表单来让学生填写
   job: 负责整个项目的前端工作
 
 contact:
